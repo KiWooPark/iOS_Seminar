@@ -724,6 +724,8 @@ for i in 0..<k {
 ```
 #### 가장 큰 수
 ```swift
+// [6, 10, 2]	
+// [3, 30, 34, 5, 9]
 func solution(_ numbers:[Int]) -> String {
     
     var result = numbers.sorted() { (left, right)  in
@@ -747,6 +749,7 @@ print(solution([0,0,0,0]))
 ```
 #### H-Index
 ```swift
+// [3, 0, 6, 1, 5]
 func solution(_ citations:[Int]) -> Int {
     
     // 인용횟수를 내림차순 정렬
